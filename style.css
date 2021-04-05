@@ -1,4 +1,23 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
+  margin: 0;
+  padding: 0;
+}
 .header {
+  width: auto;
   height: 85px;
   color: white;
   background-color: burlywood;
@@ -12,4 +31,65 @@ li {
 .header-logo {
   float: left;
   padding: 30px 36px;
+}
+.main {
+  padding: 100px 80px;
+}
+.main-judul h1 {
+  font-size: 80px;
+}
+.main-judul h2 {
+  font-size: 80px;
+}
+span {
+  color: crimson;
+}
+.contents {
+  padding-top: 80px;
+}
+.section-title {
+  font-size: 36px;
+  padding: 20px;
+  border-bottom: 1px solid #3c6382;
+}
+.content-item {
+  padding-top: 100px;
+  float: left;
+}
+.content-item img {
+  height: 300px;
+  margin-right: 40px;
+}
+.content-item p {
+  padding-top: 10px;
+  padding-left: 100px;
+}
+.contact-form {
+  padding-top: 500px;
+}
+input,
+textarea {
+  width: 400px;
+  font-size: 18px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: 1px solid #3c6382;
+}
+.nama {
+  padding-top: 30px;
+}
+.footer {
+  height: 100px;
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 20px;
+}
+.judul-footer {
+  float: left;
+  padding: 30px 20px;
+}
+.footer-list {
+  float: right;
+  font-size: 20px;
 }
